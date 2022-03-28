@@ -1,0 +1,94 @@
+<!--
+ Copyright (c) 2014, 2022, Oracle and/or its affiliates.
+ Licensed under The Universal Permissive License (UPL), Version 1.0
+ as shown at https://oss.oracle.com/licenses/upl/
+ -->
+<div id="sampleDemo" class="demo-padding demo-container">
+  <div id="componentDemoContent" style="width: 1px; min-width: 100%;">
+    <h2>Buscador alumnos</h2>
+
+    <oj-buttonset-one class="oj-buttonset-width-auto" value="{{buttonValue}}">
+      <oj-option id="pagos" value="pagos">Pagos</oj-option>
+      <oj-option id="unides" value="unides">UNIDES</oj-option>
+      <oj-option id="portalAlu" value="portalAlu">Portal Alumnos</oj-option>
+    </oj-buttonset-one>
+
+    <div id="form-container">
+      <oj-input-search id="search1" class="oj-input-search-hero" suggestions="[[suggestionsDP]]" value="{{value}}"
+        placeholder="Search..." aria-label="My search field"></oj-input-search>
+      <hr />
+      <oj-radioset 
+        id="radiosetBasicDemoId1" 
+        label-hint="Tipo de busqueda" 
+        label-edge="inside" 
+        value="Tipo de busqueda">
+      
+
+        <oj-bind-for-each data="[[typeQuery]]">
+          <template>
+            <oj-option value="[[$current.data.value]]">
+              <oj-bind-text value="[[$current.data.type]]" ></oj-bind-text>
+            </oj-option>
+          </template> 
+        </oj-bind-for-each>
+        
+      </oj-radioset>
+
+      
+            
+      <div>
+        <oj-table id="tableAlu" aria-label="Alumnos" data="[[dataAlumnos]]"
+          selection-mode='{"row": "multiple", "column": "multiple"}' dnd='{"reorder": {"columns": "enabled"}}'
+          scroll-policy="loadMoreOnScroll" scroll-policy-options='{"fetchSize": 10}' columns='[
+
+            {"headerText": "ID", 
+            "field": "id",
+            "headerClassName": "oj-sm-only-hide",
+            "className": "oj-sm-only-hide",
+            "resizable": "enabled"},
+
+            {"headerText": "Nombre", 
+            "field": "nombre",
+            "headerClassName": "oj-sm-only-hide",
+            "className": "oj-sm-only-hide",
+            "resizable": "enabled"},
+  
+            {"headerText": "Apellido Paterno", 
+            "field": "apellido_M",
+            "headerClassName": "oj-sm-only-hide",
+            "className": "oj-sm-only-hide",
+            "resizable": "enabled"},
+  
+            {"headerText": "Apellido Materno", 
+            "field": "apellido_P",
+            "headerClassName": "oj-sm-only-hide",
+            "className": "oj-sm-only-hide",
+            "resizable": "enabled"},
+                
+            {"headerText": "Correo Personal", 
+            "field": "correo_P",
+            "headerClassName": "oj-sm-only-hide",
+            "className": "oj-sm-only-hide",
+            "resizable": "enabled"},
+  
+            {"headerText": "Correo Institucional", 
+            "field": "correo_I",
+            "headerClassName": "oj-sm-only-hide",
+            "className": "oj-sm-only-hide",
+            "resizable": "enabled"},
+
+            {"headerText": "Password", 
+            "field": "password",
+            "headerClassName": "oj-sm-only-hide",
+            "className": "oj-sm-only-hide",
+            "resizable": "enabled"}
+                
+          ]' class="demo-table-container"></oj-table>
+      </div>
+    </div>
+
+
+
+
+  </div>
+</div>

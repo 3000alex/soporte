@@ -1,0 +1,410 @@
+[
+    {
+        "id": 1,
+        "nombre_campus": "Acateno",
+        "nombre_completo": "Christian Alejandro Parra Vázquez ",
+        "correo_electronico": "christian.parra@iedep.edu.mx",
+        "direccion_campus": "Carretera Federal Margaritas - San José Acateno km 18 S\/N, Santa Cruz Acateno, Pue. C.P. 73590",
+        "telefono_local": "(231)-1514627"
+    },
+    {
+        "id": 2,
+        "nombre_campus": "Acatlán",
+        "nombre_completo": "Giovanni Huerta Tapia ",
+        "correo_electronico": "giovanni.huerta@iedep.edu.mx",
+        "direccion_campus": "Vicente Guerrero id 3, Barrio San José, Acatlán, Pue. C.P. 74949",
+        "teléfono -local": "(221)-3450258"
+    },
+    {
+        "id": 3,
+        "nombre_campus": "Ahuazotepec",
+        "nombre_completo": "Lilia Lozada Cruz ",
+        "correo_electronico": "lilia.lozada.cruz@iedep.edu.mx",
+        "direccion_campus": "Domicilio Conocido Temaxcales, Ahuazotepec, Pue. C.P. 73180",
+        "telefono_local": "(221)-1922900"
+    },
+    {
+        "id": 4,
+        "nombre_campus": "Ajalpan Boca del Monte",
+        "nombre_completo": "Nora Nieto Hernández ",
+        "correo_electronico": "nora.nieto@iedep.edu.mx",
+        "direccion_campus": "Carretera Coxcatlán-Azumbilla km 32, Boca del Monte, Ajalpan, Pue. C.P. 75915",
+        "telefono_local": "(236)-1063067"
+    },
+    {
+        "id": 5,
+        "nombre_campus": "Ajalpan Centro",
+        "nombre_completo": "Nora Nieto Hernández ",
+        "correo_electronico": "nora.nieto@iedep.edu.mx",
+        "direccion_campus": "Calle 10 Oriente S\/N, Barrio Teopuxco, Ajalpan, Pue. C.P. 75910",
+        "telefono_local": "(236)-1063067"
+    },
+    {
+        "id": 6,
+        "nombre_campus": "Atempan",
+        "nombre_completo": "Alfredo Landa Becerra ",
+        "correo_electronico": "alfredo.landa@iedep.edu.mx ",
+        "direccion_campus": "Calle 7 Sur id 701, Col. Centro, Atempan, Pue. C.P. 73940",
+        "telefono_local": "(231)-3295789 \/ (231)-3111414"
+    },
+    {
+        "id": 7,
+        "nombre_campus": "Atexcal",
+        "nombre_completo": "María de Lourdes Huerta Soto",
+        "correo_electronico": "lourdes.huerta@iedep.edu.mx",
+        "direccion_campus": "Carretera Intermixteca Tehuacán-Ixcaquixtla km 45, San Martín Atexcal, Pue. C.P. 75480",
+        "telefono_local": "(224)-1008294"
+    },
+    {
+        "id": 8,
+        "nombre_campus": "Chignahuapan",
+        "nombre_completo": "Juan Antonio Vega Rodríguez ",
+        "correo_electronico": "juan.vega@iedep.edu.mx",
+        "direccion_campus": "Blvd. Gustavo Díaz Ordaz id 20, Barrio de Teotlalpan, Chignahuapan, Pue. C.P 73300",
+        "telefono_local": "(797)-9711432 \/ (797)-9768854"
+    },
+    {
+        "id": 9,
+        "nombre_campus": "Coxcatlán",
+        "nombre_completo": "Dulce Alvarado Alejo ",
+        "correo_electronico": "dulce.alvarado@iedep.edu.mx",
+        "direccion_campus": "Carretera Federal Tehuacán-Teotitlán km 38 id 101, Coxcatlán, Pue. C.P. 75980",
+        "telefono_local": "(238)-4083927"
+    },
+    {
+        "id": 10,
+        "nombre_campus": "Cuetzalan del Progreso",
+        "nombre_completo": "Anabel Mora Cruz ",
+        "correo_electronico": "anabel.mora@iedep.edu.mx",
+        "direccion_campus": "Prolongación de Calle Carmen Serdán S\/N, Col. Centro, Cuetzalan, Pue. C.P. 73560",
+        "telefono_local": "(233)-1032752 \/ (233)-3310172"
+    },
+    {
+        "id": 11,
+        "nombre_campus": "Francisco Z. Mena",
+        "nombre_completo": "Tigrio Noé Ávila Lechuga ",
+        "correo_electronico": "noe.avila@iedep.edu.mx",
+        "direccion_campus": "Calle Cuauhtemoc id 24, La Cruz, Metlaltoyuca, Francisco Z. Mena, Pue. C.P. 73000",
+        "telefono_local": "(746)-1016374 \/ (746)-1085793"
+    },
+    {
+        "id": 12,
+        "nombre_campus": "Guadalupe Victoria",
+        "nombre_completo": "Mónica Ibeth Estévez Espinoza ",
+        "correo_electronico": "monica.estevez@iedep.edu.mx",
+        "direccion_campus": "Carretera San Luis Atexcac a Guadalupe Victoria km13 S\/N, Guadalupe Victoria, Pue. C.P. 75040",
+        "telefono_local": "(222)-1555990"
+    },
+    {
+        "id": 13,
+        "nombre_campus": "Honey",
+        "nombre_completo": "Lucía Ordaz Ramírez ",
+        "correo_electronico": "lucia.ordaz@iedep.edu.mx",
+        "direccion_campus": "Carretera Honey-Pahuatlán km 1 S\/N, Col. Centro, Honey, Pue. C.P. 73120",
+        "telefono_local": "(771)-1106656 \/ (776)-7453186"
+    },
+    {
+        "id": 14,
+        "nombre_campus": "Huatlatlauca",
+        "nombre_completo": "Rosa Gloria García Bobadilla ",
+        "correo_electronico": "rosa.garcia@iedep.edu.mx",
+        "direccion_campus": "Calle 20 de noviembre S\/N, Col. Centro, Huatlatlauca, Pue. C.P. 75390",
+        "telefono_local": "(222)-6200300 ext. 1130"
+    },
+    {
+        "id": 15,
+        "nombre_campus": "Huauchinango",
+        "nombre_completo": "Patricia Beltrán Sánchez ",
+        "correo_electronico": "patricia.beltran.sanchez@iedep.edu.mx",
+        "direccion_campus": "Calle Francisco Oropeza id 49, Col. El Ocote, Huauchinango, Pue. C.P. 73172",
+        "telefono_local": "(222)-3609752 \/ (776)-7622859"
+    },
+    {
+        "id": 16,
+        "nombre_campus": "Huehuetla",
+        "nombre_completo": "Norma Díaz Labastida ",
+        "correo_electronico": "norma.diaz@iedep.edu.mx",
+        "direccion_campus": "Carretera Huehuetla-Dimas López S\/N, Huehuetla, Pue. C.P. 73470",
+        "telefono_local": "(233)-1017356"
+    },
+    {
+        "id": 17,
+        "nombre_campus": "Huejotzingo",
+        "nombre_completo": "Norma Ofelia Miranda Hernández ",
+        "correo_electronico": "norma.miranda@iedep.edu.mx",
+        "direccion_campus": "Av. de la Soledad id 588, Segundo Barrio, Huejotzingo, Pue. C.P. 74160 ",
+        "telefono_local": "(227)-2762153"
+    },
+    {
+        "id": 18,
+        "nombre_campus": "Ixcaquixtla",
+        "nombre_completo": "María de Lourdes Huerta Soto ",
+        "correo_electronico": "lourdes.huerta@iedep.edu.mx",
+        "direccion_campus": "Av. Ayuntamiento id13A, Barrio tres de mayo, San Juan Ixcaquixtla, Pue. C.P. 74900",
+        "telefono_local": "(224)-1097290 \/ (224)-4217685"
+    },
+    {
+        "id": 19,
+        "nombre_campus": "Ixtacamaxtitlán",
+        "nombre_completo": "Anerlina Leal Bonilla ",
+        "correo_electronico": "anerlina.leal@iedep.edu.mx",
+        "direccion_campus": "Calle Morelos S\/N, Col. Centro, Ixtacamaxtitlán, Pue. C.P. 73720",
+        "telefono_local": "(222)-1958660"
+    },
+    {
+        "id": 20,
+        "nombre_campus": "Izúcar de Matamoros",
+        "nombre_completo": "Alfredo Mentado Mejía ",
+        "correo_electronico": "alfredo.mentado@iedep.edu.mx",
+        "direccion_campus": "Blvd. Eje Poniente id 1805, San Martín Alchichica, Izúcar de Matamoros, Pue. C.P. 74570",
+        "telefono_local": "(222)-1764825 \/ (243)-4328527"
+    },
+    {
+        "id": 21,
+        "nombre_campus": "Jonotla",
+        "nombre_completo": "Carlos Alberto Martínez García ",
+        "correo_electronico": "carlos.martinez@iedep.edu.mx",
+        "direccion_campus": "Calle Guadalupe Victoria id 33, Col. Centro, Jonotla, Pue. C.P. 73530",
+        "telefono_local": "(233)-1075138 \/ (233)-3170069"
+    },
+    {
+        "id": 22,
+        "nombre_campus": "Libres",
+        "nombre_completo": "Jazmín Aguayo Alvarado ",
+        "correo_electronico": "jazmin.aguayo@iedep.edu.mx",
+        "direccion_campus": "20 Oriente id 229, Barrio de Cuautzolco, Libres, Pue. C.P. 73795",
+        "telefono_local": "(276)-1253734 \/ (276)-4731071"
+    },
+    {
+        "id": 23,
+        "nombre_campus": "Nopalucan",
+        "nombre_completo": "María del Carmen Mendoza Mejía ",
+        "correo_electronico": "carmen.mendoza@iedep.edu.mx",
+        "direccion_campus": "Calle Norte id 200, Reserva Territorial para Espacios Educativos, Nopalucan de la Granja, Pue. C.P. 73795",
+        "telefono_local": "(276)-4742000"
+    },
+    {
+        "id": null,
+        "nombre_campus": null,
+        "nombre_completo": null,
+        "correo_electronico": null,
+        "direccion_campus": null,
+        "telefono_local": null
+    },
+    {
+        "id": 24,
+        "nombre_campus": "Pantepec",
+        "nombre_completo": "Julio Castro Hernández ",
+        "correo_electronico": "julio.castro@iedep.edu.mx",
+        "direccion_campus": "Carretera Pantepec-Mecapalapa S\/N, Col. Santa Cruz, Pantepec, Pue. C.P. 73020",
+        "telefono_local": "(764)-1121545"
+    },
+    {
+        "id": 25,
+        "nombre_campus": "Puebla C.E. Gregorio de Gante",
+        "nombre_completo": "Elizabeth Gutiérrez Ruíz ",
+        "correo_electronico": "elizabeth.gutierrez@iedep.edu.mx",
+        "direccion_campus": "Antiguo Camino Real Tlaxcala id 11, San Jerónimo Caleras, Puebla, Pue. C.P. 72100",
+        "telefono_local": "(222)-2166558"
+    },
+    {
+        "id": 26,
+        "nombre_campus": "Puebla C.E. Gustavo Díaz Ordaz",
+        "nombre_completo": "Gonzalo Espinosa Pérez ",
+        "correo_electronico": "gonzalo.espinosa@iedep.edu.mx",
+        "direccion_campus": "Prolongación de la 3 sur y 119 pte S\/N, Col. Coatepec San Bartolo, Puebla, Pue. C.P. 72490",
+        "telefono_local": "(222)-3952410"
+    },
+    {
+        "id": 27,
+        "nombre_campus": "Puebla C.E. Manuel Bartlett Díaz",
+        "nombre_completo": null,
+        "correo_electronico": null,
+        "direccion_campus": "Calle Heliotropos S\/N, 4ta. Sección de San Ramón Castillotla, Puebla, Pue. C.P. 72490",
+        "telefono_local": "(221)-1594839"
+    },
+    {
+        "id": 28,
+        "nombre_campus": "Puebla C.E. Manuel Espinosa Yglesias",
+        "nombre_completo": "Jorge Burgos Ortega ",
+        "correo_electronico": "jorge.burgos@iedep.edu.mx",
+        "direccion_campus": "Av. Manuel Alonso id 5, Col. Santa Margarita, Puebla, Pue. C.P. 72310",
+        "telefono_local": "(221)-5839344 \/ (222)-2538542"
+    },
+    {
+        "id": 29,
+        "nombre_campus": "Puebla C.E. Octavio Paz",
+        "nombre_completo": "María Elena Rojas Gómez ",
+        "correo_electronico": "elena.rojas@iedep.edu.mx",
+        "direccion_campus": "Calle 1-D S\/N, Esq. Boulevard Puebla, Col. Bosques de San Sebastián, Pue. C.P. 72310",
+        "telefono_local": "(222)-1935029 \/ (221)-3575948 \/ (222)-2952160"
+    },
+    {
+        "id": 30,
+        "nombre_campus": "Quecholac",
+        "nombre_completo": "Luis Raúl Hidalgo López ",
+        "correo_electronico": "raul.hidalgo@iedep.edu.mx",
+        "direccion_campus": "Blvd. Quecholac - Tecamachalco id 1102, Barrio Candelaria, Quecholac, Pue. C.P. 75460",
+        "telefono_local": "(249)-1378118"
+    },
+    {
+        "id": 31,
+        "nombre_campus": "Quimixtlán",
+        "nombre_completo": "Daniel Vázquez Hernández ",
+        "correo_electronico": "daniel.vazquez@iedep.edu.mx",
+        "direccion_campus": "Carretera Federal a Quimixtlán, Desviación a Xalapa Veracruz, Loc. Tzaltzint, Quimixtlán, Pue. C.P. 75080",
+        "telefono_local": "(222)-8137795"
+    },
+    {
+        "id": 32,
+        "nombre_campus": "San Martín Texmelucan",
+        "nombre_completo": "Juan Ignacio Tapia Mejía ",
+        "correo_electronico": "ignacio.tapia@iedep.edu.mx",
+        "direccion_campus": "Guadalupe Victoria id 105, Col. Centro, San Martín Texmelucan, Pue. C.P. 74000",
+        "telefono_local": "(248)-6880315"
+    },
+    {
+        "id": 33,
+        "nombre_campus": "San Nicolás de los Ranchos",
+        "nombre_completo": null,
+        "correo_electronico": null,
+        "direccion_campus": "Calle 5 mayo id 1, Col. Centro, San Nicolás de los Ranchos, Pue. C.P. 74190",
+        "telefono_local": "(222)-6700796 \/ (222)-1782287"
+    },
+    {
+        "id": 34,
+        "nombre_campus": "San Pedro Cholula ",
+        "nombre_completo": null,
+        "correo_electronico": null,
+        "direccion_campus": "Esquina 3 poniente y 7 sur, Col. Centro, San Pedro Cholula, Pue. C.P. 72760 (Frente a Cruz Roja)",
+        "telefono_local": "(222)-6700796 \/ (222)-1782287"
+    },
+    {
+        "id": 35,
+        "nombre_campus": "San Salvador el Seco ",
+        "nombre_completo": "Karla Martínez Serrano ",
+        "correo_electronico": "karla.martinez.serrano@iedep.edu.mx",
+        "direccion_campus": "Calle 4 Oriente id 4, Barrio de Tecoac, San Salvador El Seco, Pue. C.P. 75160",
+        "telefono_local": "(249)-1721539"
+    },
+    {
+        "id": 36,
+        "nombre_campus": "San Salvador el Verde ",
+        "nombre_completo": "Juan Ignacio Tapia Mejía ",
+        "correo_electronico": "ignacio.tapia@iedep.edu.mx",
+        "direccion_campus": "Carretera San Salvador El Verde-San Andrés Hueyacatitla S\/N km cero+800, San Salvador El Verde, Pue. C.P. 74137",
+        "telefono_local": "(248)-4820697 \/ (248)-6880315"
+    },
+    {
+        "id": 37,
+        "nombre_campus": "Tecamachalco",
+        "nombre_completo": "Lucía Hernández López ",
+        "correo_electronico": "lucia.hernandez@iedep.edu.mx",
+        "direccion_campus": "Carretera Tecamachalco -Tochtepec km 1.5, Tecamachalco, Pue. C.P. 75483",
+        "telefono_local": "(249)-1752159 \/ (222)-1079427"
+    },
+    {
+        "id": 38,
+        "nombre_campus": "Tehuacán",
+        "nombre_completo": "Guillermina Patiño Méndez ",
+        "correo_electronico": "guillermina.patino@iedep.edu.mx",
+        "direccion_campus": "Libramiento San Lorenzo - Tecnológico km 1, Tehuacán, Pue. C.P. 75855",
+        "telefono_local": "(238)-1071991 \/ (238)-1719765"
+    },
+    {
+        "id": 39,
+        "nombre_campus": "Tepeaca",
+        "nombre_completo": "María Luisa Victoria Torres Durán ",
+        "correo_electronico": "luisa.torres.@iedep.edu.mx",
+        "direccion_campus": "Av. Hidalgo (Antiguo camino a San Lorenzo), S\/N, La Joya, Tepeaca, Pue. C.P. 75200",
+        "telefono_local": "(222)-6654846 \/ (222)-4948489"
+    },
+    {
+        "id": 40,
+        "nombre_campus": "Tetela de Ocampo",
+        "nombre_completo": "Saúl López Vega ",
+        "correo_electronico": "saul.lopez@iedep.edu.mx",
+        "direccion_campus": "Calle Iturbide S\/N, Barrio de Tonalapa, Tetela de Ocampo, Pue. C.P. 73650",
+        "telefono_local": "(221)-4111205"
+    },
+    {
+        "id": 41,
+        "nombre_campus": "Teziutlán",
+        "nombre_completo": "Víctor Hugo Tejeda Rodríguez ",
+        "correo_electronico": "victor.tejeda@iedep.edu.mx",
+        "direccion_campus": "Av. Hidalgo id 472, Col. Centro, Teziutlán, Pue. C.P. 73800",
+        "telefono_local": "(231)-1002344"
+    },
+    {
+        "id": 42,
+        "nombre_campus": "Tlachichuca",
+        "nombre_completo": "Eric Misael Vázquez Escalante ",
+        "correo_electronico": "eric.vazquez@iedep.edu.mx",
+        "direccion_campus": "Carretera a San Salvador el Seco S\/N, Tlachichuca, Pue. C.P. 75050",
+        "telefono_local": "(245)-1158062 \/ (222)-6633221"
+    },
+    {
+        "id": 43,
+        "nombre_campus": "Tlatlauquitepec",
+        "nombre_completo": "Reynaldo Mariano Hernández ",
+        "correo_electronico": "reynaldo.mariano.hernandez@iedep.edu.mx",
+        "direccion_campus": "Calle Plaza Principal Pezmatlán S\/N, Tlatlauquitepec, Pue. C.P. 73904",
+        "telefono_local": "(233)-3180824 \/ (231)-1430454"
+    },
+    {
+        "id": 44,
+        "nombre_campus": "Tulcingo de Valle",
+        "nombre_completo": "Miguel Angel Gómez Silva ",
+        "correo_electronico": "miguel.gomez@iedep.edu.mx",
+        "direccion_campus": "Carretera Palomas - Tlapa km 41 S\/N, Tulcingo de Valle, Pue. C.P. 74790",
+        "telefono_local": "(275)-1006726 \/ (243)-1260625"
+    },
+    {
+        "id": 45,
+        "nombre_campus": "Xicotepec",
+        "nombre_completo": "Benjamín Pérez García",
+        "correo_electronico": "benjamin.perez@iedep.edu.mx",
+        "direccion_campus": "San Francisco id 124, Col. Plutarco Elías Calles, Xicotepec de Juárez, Pue. C.P. 73080",
+        "telefono_local": "(553)-6511019"
+    },
+    {
+        "id": 46,
+        "nombre_campus": "Xiutetelco",
+        "nombre_completo": "Yoselin Yusuli León Sandoval",
+        "correo_electronico": "yoselin.leon@iedep.edu.mx",
+        "direccion_campus": "Calle 24 de junio id 103, El Encanto, San Juan Xiutetelco, Pue. C.P. 73970",
+        "telefono_local": "(231)-1554440"
+    },
+    {
+        "id": 47,
+        "nombre_campus": "Xochitlán Todos Santos",
+        "nombre_completo": "Lucía Hernández López",
+        "correo_electronico": "lucia.hernandez@iedep.edu.mx",
+        "direccion_campus": "Av. Higinio Aguilar S\/N, Xochitlán Todos Santos, Pue. C.P. 75660",
+        "telefono_local": "(249)-1752159 \/ (237)-1127315"
+    },
+    {
+        "id": 48,
+        "nombre_campus": "Xochitlán de Vicente Suárez",
+        "nombre_completo": "Jorge Roberto Flores Vázquez",
+        "correo_electronico": "roberto.flores@iedep.edu.mx",
+        "direccion_campus": "Carretera Interserrana S\/N, Tercera Sección, Xochitlán de Vicente Suárez , Pue. C.P. 73460",
+        "telefono_local": "(222)-1832928 \/ (233)-1474908"
+    },
+    {
+        "id": 49,
+        "nombre_campus": "Yehualtepec",
+        "nombre_completo": "Juan Pablo González Lima ",
+        "correo_electronico": "pablo.gonzalez.lima@iedep.edu.mx",
+        "direccion_campus": "Av. José González Soto S\/N, Yehualtepec, Pue. C.P. 75670",
+        "telefono_local": "(238)-3908952 \/ (249)-1621508"
+    },
+    {
+        "id": 50,
+        "nombre_campus": "Zacatlán",
+        "nombre_completo": "Diana Laura Coriche Ramírez ",
+        "correo_electronico": "diana.coriche@iedep.edu.mx",
+        "direccion_campus": "Calle Alatriste id 8, Col. Centro, Zacatlán, Pue. C.P. 73310",
+        "telefono_local": "(797)-9750110 \/ (797)-1062995"
+    }
+]

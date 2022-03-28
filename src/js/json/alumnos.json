@@ -1,0 +1,12 @@
+[
+    {
+        "id":1,
+        "nombre":"nombre prueba",
+        "apellido_M":"apellido M",
+        "apellido_P":"apellido P",
+        "correo_p":"personal@gmail.com",
+        "correo_I":"institucional@iedep.edu.mx",
+        "password":"jnacsojnasjcnas"
+    }
+
+]

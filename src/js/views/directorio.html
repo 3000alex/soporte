@@ -1,0 +1,179 @@
+<!--
+ Copyright (c) 2014, 2022, Oracle and/or its affiliates.
+ Licensed under The Universal Permissive License (UPL), Version 1.0
+ as shown at https://oss.oracle.com/licenses/upl/
+ -->
+<div class="oj-hybrid-padding">
+  <h2>Directorio</h2>
+
+  <oj-buttonset-one class="oj-buttonset-width-auto" value="{{buttonValue}}">
+    <oj-option id="onOption" value="interno">Interno</oj-option>
+    <oj-option id="offOption" value="sedes">Sedes</oj-option>
+  </oj-buttonset-one>
+
+  <oj-bind-if test="[[buttonValue() === 'interno']]">
+    <h3>Interno</h3>
+    <div> 
+      <oj-table id="table" aria-label="Directorio" data="[[dataDirectorio]]"
+        selection-mode='{"row": "multiple", "column": "multiple"}' dnd='{"reorder": {"columns": "enabled"}}'
+        scroll-policy="loadMoreOnScroll" scroll-policy-options='{"fetchSize": 10}' 
+        columns='[
+                {"headerText": "ext", 
+                "field": "ext",
+                "headerClassName": "oj-sm-only-hide",
+                "className": "oj-sm-only-hide",
+                "resizable": "enabled"},
+
+                {"headerText": "oficina", 
+                "field": "oficina",
+                "headerClassName": "oj-sm-only-hide",
+                "className": "oj-sm-only-hide",
+                "resizable": "enabled"},
+
+                {"headerText": "persona", 
+                "field": "persona",
+                "headerClassName": "oj-sm-only-hide",
+                "className": "oj-sm-only-hide",
+                "resizable": "enabled"} ]' class="demo-table-container"></oj-table>
+    </div>
+  </oj-bind-if>
+
+  <oj-bind-if test="[[buttonValue() === 'sedes']]">
+    <h3>SEDES IEDEP</h3>
+    <h4>Licenciatura Semipresenciales</h4>
+    <div>
+      <oj-table id="tableL" aria-label="Licenciatura" data="[[dataSedeLicenciatura]]"
+      selection-mode='{"row": "multiple", "column": "multiple"}' dnd='{"reorder": {"columns": "enabled"}}'
+      scroll-policy="loadMoreOnScroll" scroll-policy-options='{"fetchSize": 10}' 
+      columns='[
+              {"headerText": "#", 
+              "field": "id",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"},
+              
+              {"headerText": "Nombre campus", 
+              "field": "nombre_campus",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"},
+
+              {"headerText": "Nombre completo", 
+              "field": "nombre_completo",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"},
+
+              {"headerText": "Correo electronico", 
+              "field": "correo_electronico",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"},
+
+              {"headerText": "Dirección Campus", 
+              "field": "direccion_campus",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"},
+
+              {"headerText": "telefono Local", 
+              "field": "telefono_local",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"}
+
+              ]' class="demo-table-container"></oj-table>
+    </div>
+
+    <h4>Maestrías</h4>
+    <div>
+      <oj-table id="tableM" aria-label="Maestria" data="[[dataSedeMaestria]]"
+      selection-mode='{"row": "multiple", "column": "multiple"}' dnd='{"reorder": {"columns": "enabled"}}'
+      scroll-policy="loadMoreOnScroll" scroll-policy-options='{"fetchSize": 10}' 
+      columns='[
+              {"headerText": "#", 
+              "field": "id",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"},
+              
+              {"headerText": "Nombre campus", 
+              "field": "nombre_campus",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"},
+
+              {"headerText": "Nombre completo", 
+              "field": "nombre_completo",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"},
+
+              {"headerText": "Correo electronico", 
+              "field": "correo_electronico",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"},
+
+              {"headerText": "Dirección Campus", 
+              "field": "direccion_campus",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"},
+
+              {"headerText": "telefono Local", 
+              "field": "telefono_local",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"}
+
+              ]' class="demo-table-container"></oj-table>
+    </div>
+
+    <h4>Bachillerato</h4>
+    <div>
+      <oj-table id="tableB" aria-label="Bachillerato" data="[[dataSedeBachiller]]"
+      selection-mode='{"row": "multiple", "column": "multiple"}' dnd='{"reorder": {"columns": "enabled"}}'
+      scroll-policy="loadMoreOnScroll" scroll-policy-options='{"fetchSize": 10}' 
+      columns='[
+              {"headerText": "#", 
+              "field": "id",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"},
+              
+              {"headerText": "Nombre campus", 
+              "field": "nombre_campus",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"},
+
+              {"headerText": "Nombre completo", 
+              "field": "nombre_completo",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"},
+
+              {"headerText": "Correo electronico", 
+              "field": "correo_electronico",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"},
+
+              {"headerText": "Dirección Campus", 
+              "field": "direccion_campus",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"},
+
+              {"headerText": "telefono Local", 
+              "field": "telefono_local",
+              "headerClassName": "oj-sm-only-hide",
+              "className": "oj-sm-only-hide",
+              "resizable": "enabled"}
+
+              ]' class="demo-table-container"></oj-table>
+    </div>
+  </oj-bind-if>
+
+</div>

@@ -1,0 +1,48 @@
+[
+
+    {
+     "id": 1,
+     "nombre_campus": "Cerro Verde",
+     "Column3": null,
+     "nombre_completo": "Ubaldo Lechuga Rubio",
+     "correo_electronico": "ubaldo.lechuga@iedep.edu.mx",
+     "direccion_campus": "Calle Vicente Guerrero S\/N, Cerro Verde Zihuateutla, Pue. C.P. 73240",
+     "telefono_local": "(221)-3186402"
+    },
+    {
+     "id": 2,
+     "nombre_campus": "La Magdalena",
+     "Column3": null,
+     "nombre_completo": "Miguel Angel Aguilar Aguilar",
+     "correo_electronico": "angel.aguilar@iedep.edu.mx",
+     "direccion_campus": "Carretera Valsequillo-La Magdalena S\/N, La Magdalena Tlatlauquitepec, Pue. C.P. 75340",
+     "telefono_local": "(224)-1074853"
+    },
+    {
+     "id": 3,
+     "nombre_campus": "Los Limones",
+     "Column3": null,
+     "nombre_completo": "Hilario Gutiérrez Santos",
+     "correo_electronico": "hilario.gutierrez@iedep.edu.mx",
+     "direccion_campus": "Av. Gilberto Camacho S\/N, Los Limones Xicotepec, Pue. C.P.73099",
+     "telefono_local": "(776)-1183172"
+    },
+    {
+     "id": 4,
+     "nombre_campus": "Pepexta",
+     "Column3": null,
+     "nombre_completo": "Alejandro Mora Ramos",
+     "correo_electronico": "alejandro.mora@iedep.edu.mx",
+     "direccion_campus": "Calle zaragoza S\/N, Pepexta, San Andres Tzicuilan, Cuetzalan del Progreso, Pue. C.P. 73563",
+     "telefono_local": "(233)-1322883"
+    },
+    {
+     "id": 5,
+     "nombre_campus": "Xicotlán",
+     "Column3": null,
+     "nombre_completo": "Rufino Bautista Ángel",
+     "correo_electronico": "rufino.bautista@iedep.edu.mx",
+     "direccion_campus": "Carretera Acaxtlahuacán de Albino Zertuche S\/N, Xicotlán, Pue. C.P. 74750",
+     "telefono_local": "(275)-1075429"
+    }
+   ]

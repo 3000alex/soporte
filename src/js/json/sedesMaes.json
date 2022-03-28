@@ -1,0 +1,47 @@
+[
+    {
+     "id": 1,
+     "nombre_campus": "Puebla",
+     "Column3": null,
+     "nombre_completo": "Rosa Gloria García Bobadilla",
+     "correo_electronico": "rosa.garcia@iedep.edu.mx",
+     "direccion_campus": "Av. Maximino A. Camacho 1205, Santiago Xicotenco, San Andrés Cholula, Pue. 72810",
+     "telefono_local": "(222)-6200300 etx. 1130"
+    },
+    {
+     "id": 2,
+     "nombre_campus": "Quecholac",
+     "Column3": null,
+     "nombre_completo": "Luis Raúl Hidalgo López",
+     "correo_electronico": "raul.hidalgo@iedep.edu.mx",
+     "direccion_campus": "Blvd. Quecholac - Tecamachalco id 1102, Barrio Candelaria, Quecholac, Pue. C.P. 75460",
+     "telefono_local": "(249)-1378118"
+    },
+    {
+     "id": 3,
+     "nombre_campus": "Xicotepec",
+     "Column3": null,
+     "nombre_completo": "Benjamín Pérez García",
+     "correo_electronico": "benjamin.perez@iedep.edu.mx",
+     "direccion_campus": "San Francisco id 124, Col. Plutarco Elías Calles, Xicotepec de Juárez, Pue. C.P. 73080",
+     "telefono_local": "(553)-6511019"
+    },
+    {
+     "id": 4,
+     "nombre_campus": "Zacapoaxtla",
+     "Column3": null,
+     "nombre_completo": "Anabel Mora Cruz",
+     "correo_electronico": "anabel.mora@iedep.edu.mx",
+     "direccion_campus": "Camino a Ayoco S\/N Barrio Ayoco, Zacapoaxtla, Puebla C.P. 73680",
+     "telefono_local": "(233)-1032752 \/ (233)-3310172"
+    },
+    {
+     "id": 5,
+     "nombre_campus": "Zacatlán",
+     "Column3": null,
+     "nombre_completo": "Diana Laura Coriche Ramírez",
+     "correo_electronico": "diana.coriche@iedep.edu.mx",
+     "direccion_campus": "Calle Alatriste id 8, Col. Centro, Zacatlán, Pue. C.P. 73310",
+     "telefono_local": "(797)-9750110"
+    }
+   ]
